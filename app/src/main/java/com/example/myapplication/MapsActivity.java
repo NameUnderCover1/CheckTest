@@ -38,6 +38,8 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     public void onMapReady(GoogleMap googleMap) {
         mMap = googleMap;
 
+
+
         // Add a marker in Kyiv and move the camera
         LatLng kyiv = new LatLng(50.4501, 30.5234);
         mMap.addMarker(new MarkerOptions().position(kyiv).title("Marker in Kyiv"));
